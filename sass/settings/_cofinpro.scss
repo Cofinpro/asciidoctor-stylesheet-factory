@@ -1,0 +1,100 @@
+$base-font-size: 15px;
+
+$body-bg: white;
+$body-font-color: rgb(33, 37, 41);
+$body-font-family: apercu-regular-pro, Arial, Helvetica, sans-serif, sans-serif;
+$body-font-weight: 400;
+
+@import "defaults";
+
+// Default Overrides
+
+$primary-color: #ec7b1a;
+$secondary-color: #a9c5e8;
+$alert-color: #f44336;
+
+$em-base: $base-font-size;
+
+// Headers
+
+$title-font-color: $body-font-color;
+$title-font-weight: 500;
+$header-font-family: apercu-bold-pro, Arial, Helvetica, sans-serif, sans-serif;
+$header-font-color: $body-font-color;
+$header-font-weight: 500;
+$sect-divider-size: 0;
+$subheader-font-color: $body-font-color;
+
+$h1-font-size: 3em;
+$h2-font-size: 2.5em;
+$h3-font-size: 2em;
+$h4-font-size: 1em;
+$h5-font-size: 1em;
+$h6-font-size: 1em;
+
+// Footer
+
+$footer-bg: rgb(132, 117, 117);
+$footer-font-color: #fff;
+
+// Block Quotes
+
+$blockquote-font-color: $body-font-color;
+$blockquote-cite-font-color: $body-font-color;
+$blockquote-border: none;
+$blockquote-padding: 0;
+
+// Sidebar (Helper)
+
+$sidebar-header-border-style: solid;
+$sidebar-header-border-color: $secondary-color;
+
+// Lists
+
+$list-side-margin: emCalc(21px);
+$definition-list-header-margin-bottom: emCalc(5px);
+$definition-list-margin-bottom: emCalc(20px);
+
+// Links
+
+$anchor-font-color-hover: $body-font-color;
+$anchor-text-decoration-hover: underline;
+
+// Inline Code
+
+$code-font-family: Monaco, 'DejaVu Sans Mono', 'Courier New', monospace;
+$code-font-size: emCalc(13px);
+$code-color: $body-font-color;
+$code-font-weight: normal;
+$code-padding: 1px 5px 1px 5px;
+$code-border-size: 1px;
+$code-bg-color: transparent;
+
+// Code Blocks
+
+$pre-bg: transparent;
+$pre-font-color: $body-font-color;
+$pre-font-size: emCalc(13px);
+$pre-border-color: $secondary-color;
+$pre-border-style: solid;
+$pre-border-size: 2px;
+$pre-padding: emCalc(10px);
+
+// Panels
+
+$panel-bg: #fff;
+$panel-border-color: $primary-color;
+$panel-border-style: dashed;
+
+// Paragraphs
+
+$paragraph-font-family: $body-font-family;
+$paragraph-margin-bottom: emCalc(15px);
+$paragraph-line-height: 1.5;
+
+// Tables
+
+$table-line-height: 1.5;
+$table-row-font-size: emCalc(12px);
+$hr-border-color: $secondary-color;
+$hr-border-width: 2px;

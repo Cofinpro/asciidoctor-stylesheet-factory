@@ -1,0 +1,26 @@
+@import "fonts/_cofinpro.scss";
+@import "settings/cofinpro";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+#header .details {
+  border-bottom: none;
+}
+
+.paragraph.lead > p,
+#preamble > .sectionbody > [class="paragraph"]:first-of-type p,
+.abstract blockquote {
+  font-weight: $header-font-weight;
+  font-family: $header-font-family;
+  font-style: normal;
+}
+
+#header {
+  .details {
+    br + span.author::before {
+      content: "\00a0---\00a0";
+    }
+  }
+}
+
+@import "components/print";

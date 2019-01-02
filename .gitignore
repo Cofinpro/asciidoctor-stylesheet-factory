@@ -1,6 +1,9 @@
 /*.html
 /.bundle/
+/vendor/
 /.sass-cache/
 /Gemfile.lock
 /node_modules/
 /stylesheets/
+
+.idea/
